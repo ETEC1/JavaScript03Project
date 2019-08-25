@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Module 03 Project</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link href="styles/custom.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.2.5.min.js"></script>
+<head>
+  <!--Module 03 Project, August25, 2019-->
+<h2>JavaScript, JQuery, and HTML</h2>
+
+  <style type="text/css">
+  body {background-color:#CD5C5C}
+  p {color:green}
+  </style>
+
+Provide input here: <input type="text" id="myText" value="">
+<h2>
+<p>SEE BELOW TO VIEW ENTRY.</p>
+</h2>
+
+<button onclick="valueEntry()">DISPLAY MY ENTRY, CLICK HERE</button>
+<p id="entryDisplay"></p>
+
+<script>
+function valueEntry() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("entryDisplay").innerHTML = x;}
+//javaScript
+</script>
+
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+
+<div data-role="footer" data-theme="a">
+  <h4>Your App &copy; "AUGUST25,2019"</h4>
+</div>
+<!--created by Patrick Lee-->
+</body>
+</html>
